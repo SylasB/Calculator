@@ -1,5 +1,5 @@
-.title {
-  text-align: center;
+font {
+  font-size: large;
 }
 
 body {
@@ -7,6 +7,10 @@ body {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
+}
+
+.title {
+  text-align: center;
 }
 
 .content {
@@ -35,13 +39,13 @@ body {
   border: 5px solid black;
   background-color: lightyellow;
   height: 100px;
-  width: 330px;
+  width: 333px;
   margin: 10px;
-  margin-left: 30px;
+  margin-left: 27px;
 }
 
 .output {
-  border: 2px solid red;
+  flex: 1 1 1;
 }
 
 .buttons {
@@ -50,6 +54,8 @@ body {
   grid-template-rows: repeat(4, 1fr);
 
   justify-content: center;
+
+  font-size: 30px;
 
   height: 350px;
   width: 350px;
@@ -61,12 +67,31 @@ button:hover {
   background-color: yellow;
 }
 
-.clear {
+.reset {
   display: flex;
-  justify-content: center;
+  margin-left: 25px;
+  margin-top: 25px;
 }
 
-.reset {
-  width: 340px;
+.clear {
+  justify-content: center;
+  width: 348px;
   height: 40px;
+  background-color: red;
+}
+
+button {
+  font-size: 25px;
+}
+
+.operator {
+  background-color: aquamarine;
+}
+
+#equals {
+  background-color: grey;
+}
+
+#decimals {
+  background-color: grey;
 }

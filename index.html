@@ -15,10 +15,13 @@
     <div class="content">
         <div class="calculator">
             <div class="screen">
-                    
+                <div class="output">
+                    <div class="previousNumber"></div>
+                    <div class="currentNumber">0</div>
+                </div>   
             </div>
-            <div class="clear">
-                <button class="reset">A/C</button>
+            <div class="reset">
+                <button class="clear">A/C</button>
             </div>
             <div class="buttons">
                 <button class="number">7</button>
@@ -33,9 +36,9 @@
                 <button class="number">2</button>
                 <button class="number">3</button>
                 <button class="operator">-</button>
-                <button class="decimal">.</button>
+                <button class="decimal" id="decimals">.</button>
                 <button class="number">0</button>
-                <button class="equal">=</button>
+                <button class="equal" id="equals">=</button>
                 <button class="operator">+</button>
             </div>
         </div>
